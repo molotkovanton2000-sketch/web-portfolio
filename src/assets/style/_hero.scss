@@ -1,0 +1,131 @@
+.hero {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("@/assets/img/backqround-orange-second.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  @include mobile-sm {
+    text-align: center;
+  }
+}
+
+.hero__content {
+  width: 100%;
+}
+
+.hero__title {
+  font-family: $font-secondary;
+  color: $color-brown;
+  margin-bottom: 12px;
+
+  &--highlight {
+    color: $color-orange;
+  }
+}
+
+.hero__subtitle {
+  line-height: 1.6;
+  color: black;
+  margin-bottom: 16px;
+}
+
+.hero__about {
+  display: flex;
+  color: $color-dark;
+  margin-bottom: 32px;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero__values{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+  @include mobile-sm {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.hero__values-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @include mobile-sm {
+    align-items: center;
+  }
+}
+
+.hero__value-item {
+  font-size: 16px;
+  color: $color-dark;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  @include mobile-sm {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.hero__value-icon{
+  color: $color-orange;
+  font-size: 18px;
+}
+
+.hero__skills {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  gap: 10px;
+  justify-content: center;
+
+  @include mobile-sm {
+    justify-content: center;
+  }
+}
+
+.hero__skill {
+  background: white;
+  border: 3px solid $color-orange;
+  padding: 7px 19px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: $color-brown;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: $color-orange;
+    color: $white;
+    border-color: $color-orange;
+    transform: translateY(-2px);
+  }
+
+  @include mobile-sm{
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+}
+
+.hero__values-subtitle{
+  display: flex;
+  align-items: start;
+  padding-bottom: 10px;
+
+  @include mobile-sm {
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+  }
+}

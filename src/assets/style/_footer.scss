@@ -1,0 +1,86 @@
+.footer {
+  padding: 40px 0;
+  background-color: $color-brown;
+  border-top: 2px solid $color-orange;
+
+  @include mobile-sm {
+    padding: 30px 0;
+  }
+}
+
+.footer__container {
+  width: 100%;
+  height: auto;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  @include mobile-sm {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+
+  @include mobile-sm {
+    align-items: center;
+  }
+}
+
+.footer__logo {
+  text-decoration: none;
+}
+
+.footer__logo-text {
+  font-family: $font-secondary;
+  color: $white;
+}
+
+.footer__copy {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__socials {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  &:hover {
+    background: $color-orange;
+    border-color: $color-orange;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 16px rgba($color-orange, 0.3);
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+  }
+}

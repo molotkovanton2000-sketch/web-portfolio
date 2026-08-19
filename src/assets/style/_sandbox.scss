@@ -1,0 +1,234 @@
+.sandbox {
+  background-color: white;
+}
+
+.sandbox__title {
+  font-family: $font-secondary;
+  font-size: 40px;
+  color: $color-brown;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.sandbox__subtitle {
+  font-size: 18px;
+  color: $color-dark;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+
+// ============================================
+// ДЕСКТОПНАЯ НАВИГАЦИЯ
+// ============================================
+
+.sandbox-header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $color-brown;
+}
+
+.sandbox-header__container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  overflow: hidden;
+}
+
+.sandbox-header__nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.sandbox-header__logo {
+  text-decoration: none;
+  flex-shrink: 0;
+
+  &-text {
+    font-family: $font-secondary;
+    font-size: 50px;
+    font-weight: 500;
+    color: $white;
+    line-height: 1;
+
+    @include mobile-sm {
+      font-size: 35px;
+    }
+  }
+}
+
+.sandbox-header__list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @include laptop {
+    gap: 25px;
+  }
+  @include tablet {
+    display: none;
+  }
+}
+
+.sandbox-header__link {
+  color: $white;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $color-orange;
+    transform: scale(1.05);
+  }
+  &.router-link-active {
+    color: $color-orange;
+    font-weight: 700;
+  }
+}
+
+// ============================================
+// БУРГЕР-КНОПКА
+// ============================================
+
+.sandbox-header__actions {
+  display: none;
+
+  @include tablet {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.sandbox-header__burger-menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+
+  img {
+    width: 42px;
+    height: 42px;
+
+    @include mobile-sm {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+// ============================================
+// МОБИЛЬНОЕ МЕНЮ (оверлей + панель)
+// ============================================
+
+.sandbox-header__mobile-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+
+  &.opened {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  @include tablet {
+    display: block;
+  }
+}
+
+.sandbox-header__mobile-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 320px;
+  height: 100vh;
+  background-color: $color-brown;
+  padding: 30px 24px;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+
+  .opened & {
+    transform: translateX(0);
+  }
+}
+
+.sandbox-header__mobile-sandbox-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.sandbox-header__mobile-logo {
+  font-family: $font-secondary;
+  font-size: 30px;
+  font-weight: 500;
+  color: $white;
+  text-decoration: none;
+}
+
+.sandbox-header__mobile-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+
+  img {
+    width: 28px;
+    height: 28px;
+    filter: brightness(0) invert(1);
+  }
+}
+
+.sandbox-header__mobile-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sandbox-header__mobile-link {
+  display: block;
+  color: $white;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: color 0.2s;
+
+  &:hover {
+    color: $color-orange;
+  }
+
+  &.router-link-active {
+    color: $color-orange;
+    font-weight: 700;
+  }
+}
+
+
