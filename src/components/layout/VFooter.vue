@@ -17,7 +17,7 @@
         <!-- Правая часть: социальные ссылки -->
         <div class="footer__socials">
           <a
-            href="#"
+            href="https://github.com/molotkovanton2000-sketch"
             class="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,7 +25,7 @@
             <img src="@/assets/img/icons-github.png" alt="GitHub" class="footer__social-icon" />
           </a>
           <a
-            href="#"
+            href="t.me/YourWinnerous"
             class="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
