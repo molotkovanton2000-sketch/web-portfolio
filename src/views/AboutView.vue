@@ -105,17 +105,17 @@ const components = [
           </a>
         </li>
         <li>
-          <a href="https://my-web-portfolio-sand.vercel.app/" target="_blank">
+          <a href="https://web-portfolio-nine-navy.vercel.app/" target="_blank">
             Живой сайт (это портфолио)
           </a>
         </li>
         <li>
-          <a href="" target="_blank">
+          <a href="https://website-coffee-eta.vercel.app/" target="_blank">
             Coffee – адаптивный лендинг
           </a>
         </li>
         <li>
-          <a href="" target="_blank">
+          <a href="https://website-astro-car.vercel.app/" target="_blank">
             Astro Car – лендинг автомобиля
           </a>
         </li>
