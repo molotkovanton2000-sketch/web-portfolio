@@ -39,7 +39,7 @@
                         </ul>
                     </div>
 
-                    <!-- Статистика (в стиле принципов) -->
+                    <!-- Статистика -->
                     <div class="hero__values-column">
                         <h3 class="hero__values-subtitle">Статистика:</h3>
                         <ul class="hero__values-list">
@@ -49,11 +49,11 @@
                             </li>
                             <li class="hero__value-item">
                                 <span class="hero__value-icon">▸</span>
-                                2 года коммерческой разработки(lie)
+                                2 года коммерческой разработки(no lie)
                             </li>
                             <li class="hero__value-item">
                                 <span class="hero__value-icon">▸</span>
-                                100% адаптивная верстка
+                                673 раза послал Андрея нахуй
                             </li>
                         </ul>
                     </div>

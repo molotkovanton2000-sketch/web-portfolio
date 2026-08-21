@@ -243,7 +243,7 @@ const addRandomTodo = () => {
     color: $color-dark;
 
     &:hover {
-        background: darken($color-light, 10%);
+        background: darken(rgb(16, 211, 16), 10%);
     }
 }
 
