@@ -25,7 +25,7 @@
                             <span class="projects__card-tag">БЭМ</span>
                         </div>
                         <div class="projects__card-actions">
-                            <a href="#"
+                            <a href="https://website-coffee-eta.vercel.app/"
                                 class="projects__card-link projects__card-link--demo" target="_blank"
                                 rel="noopener noreferrer">
                                 Демо
@@ -55,7 +55,7 @@
                             <span class="projects__card-tag">Flexbox</span>
                         </div>
                         <div class="projects__card-actions">
-                            <a href="#" 
+                            <a href="https://website-astro-car.vercel.app/" 
                                 class="projects__card-link projects__card-link--demo" target="_blank"
                                 rel="noopener noreferrer">
                                 Демо
@@ -85,7 +85,7 @@
                             <span class="projects__card-tag">Vue Router</span>
                         </div>
                         <div class="projects__card-actions">
-                            <a href="#"
+                            <a href="https://web-portfolio-nine-navy.vercel.app/"
                                 class="projects__card-link projects__card-link--demo" target="_blank"
                                 rel="noopener noreferrer">
                                 Демо
