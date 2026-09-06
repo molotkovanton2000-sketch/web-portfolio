@@ -100,7 +100,7 @@ const components = [
       <h2>🔗 Ссылки</h2>
       <ul>
         <li>
-          <a href="https://github.com/molotkovanton2000-sketch/my-web-portfolio" target="_blank">
+          <a href="https://github.com/molotkovanton2000-sketch/web-portfolio.git" target="_blank">
             GitHub репозиторий
           </a>
         </li>

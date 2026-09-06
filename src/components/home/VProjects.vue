@@ -30,7 +30,7 @@
                                 rel="noopener noreferrer">
                                 Демо
                             </a>
-                            <a href="https://github.com/molotkovanton2000-sketch/website-Coffee"
+                            <a href="https://github.com/molotkovanton2000-sketch/website_Coffee.git"
                                 class="projects__card-link projects__card-link--code" target="_blank"
                                 rel="noopener noreferrer">
                                 Код
@@ -60,7 +60,7 @@
                                 rel="noopener noreferrer">
                                 Демо
                             </a>
-                            <a href="https://github.com/molotkovanton2000-sketch/website_AstroCar"
+                            <a href="https://github.com/molotkovanton2000-sketch/website_AstroCar.git"
                                 class="projects__card-link projects__card-link--code" target="_blank"
                                 rel="noopener noreferrer">
                                 Код
@@ -90,7 +90,7 @@
                                 rel="noopener noreferrer">
                                 Демо
                             </a>
-                            <a href="https://github.com/molotkovanton2000-sketch/my-web-portfolio"
+                            <a href="https://github.com/molotkovanton2000-sketch/web-portfolio.git"
                                 class="projects__card-link projects__card-link--code" target="_blank"
                                 rel="noopener noreferrer">
                                 Код
